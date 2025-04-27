@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terminal RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="terminal-button close"></span>
+                <span class="terminal-button minimize"></span>
+                <span class="terminal-button maximize"></span>
+            </div>
+            <div class="terminal-title">Terminal — rock-paper-scissors</div>
+        </div>
+        <div class="terminal-body">
+            <div id="terminal-output"></div>
+            <div class="terminal-input-line">
+                <span class="terminal-prompt">$ </span>
+                <input type="text" id="terminal-input" autofocus spellcheck="false">
+                <span class="terminal-cursor"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="./js/game.js"></script>
+<script src="./js/commands.js"></script>
+<script src="./js/terminal.js"></script>
+<script src="./js/storage.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
