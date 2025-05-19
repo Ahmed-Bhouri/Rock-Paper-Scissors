@@ -190,6 +190,13 @@ body {
     50% { opacity: 0; }
 }
 
+.copyright {
+    text-align: center;
+    color: #666;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
 @media (max-width: 600px) {
     .terminal-container {
         height: 80vh;
